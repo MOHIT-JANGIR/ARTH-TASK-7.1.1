@@ -8,11 +8,11 @@
 # SOLUTION :
 # -->> Firstly i have created 10 gb ebs and i have created 2 volumes in the same way. 
 ![Screenshot 2020-11-02 19 26 03](https://user-images.githubusercontent.com/61896468/97876089-53be6b00-1d41-11eb-9b9d-e6b0e9b95d81.png)
-# -->> Then i attached that volume to my aws ec2 instance.
+# -->> Then i attached both volumes to my aws ec2 instance.
 ![Screenshot 2020-11-02 19 29 41](https://user-images.githubusercontent.com/61896468/97876452-e0692900-1d41-11eb-992b-33ae517a60b5.png)
 # -->> To check all devices or hard disks , i have run fdisk -l and here my ebs volume is visible.
 ![2020-10-30 (1)](https://user-images.githubusercontent.com/61896468/97873325-79497580-1d3d-11eb-83a5-27b6d9f49107.png)
-
+# -->> Istall lvm package.
 ![](https://miro.medium.com/max/875/1*cC3EvQj4IMF9JA51Ucta4w.png)
 
 
@@ -23,11 +23,15 @@
 # -->> Now i created logical volume (LV) of 5 gb from this vg and it is available to use.
 ![2020-10-30 (4)](https://user-images.githubusercontent.com/61896468/97873346-7f3f5680-1d3d-11eb-9569-b9b7215b7e1d.png)
 
-
+# Now lvm is like partition ,we can format it.
 
 ![](https://miro.medium.com/max/875/1*MTB6W0H3gmBRvuJv-J5jpg.png)
 
+# Here i am mounting it to /dn2
 ![](https://miro.medium.com/max/875/1*fZgrSV1Blbx_0bFoIJwQoQ.png)
+# 
+![](https://user-images.githubusercontent.com/61896468/97841618-37540b80-1d0c-11eb-91a9-67b082972df0.png)
+
 
 ![image](https://user-images.githubusercontent.com/61896468/97879314-da754700-1d45-11eb-923e-a698d1b99ba8.png)
 # -->> 

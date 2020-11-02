@@ -4,12 +4,21 @@
 # 🌀 7.1.1: Elasticity Task
 # 🔅Integrating LVM with Hadoop and providing Elasticity to DataNode Storage
 
+
+# SOLUTION :
+# -->> Firstly i have created 10 gb ebs .
 ![Screenshot 2020-11-02 19 26 03](https://user-images.githubusercontent.com/61896468/97876089-53be6b00-1d41-11eb-9b9d-e6b0e9b95d81.png)
+# -->> Then i attached that volume to my aws ec2 instance.
 ![Screenshot 2020-11-02 19 29 41](https://user-images.githubusercontent.com/61896468/97876452-e0692900-1d41-11eb-992b-33ae517a60b5.png)
+# -->> To check all devices or hard disks , i have run fdisk -l and here my ebs volume is visible.
 ![2020-10-30 (1)](https://user-images.githubusercontent.com/61896468/97873325-79497580-1d3d-11eb-83a5-27b6d9f49107.png)
+# -->> To use lvm,first i need to create a physical volume (pv) from this ebs And pvdisplay is to confirm it is created or not.
 ![2020-10-30 (2)](https://user-images.githubusercontent.com/61896468/97873331-7a7aa280-1d3d-11eb-818f-4b2c40880228.png)
+# -->> Now i created a volume group (VG) and it has 10 gb.
 ![2020-10-30 (3)](https://user-images.githubusercontent.com/61896468/97873343-7e0e2980-1d3d-11eb-91dc-055d5802dc1d.png)
+# -->> Now i created logical volume (LV) of 5 gb from this vg and it is available to use.
 ![2020-10-30 (4)](https://user-images.githubusercontent.com/61896468/97873346-7f3f5680-1d3d-11eb-9569-b9b7215b7e1d.png)
+# -->> 
 ![2020-10-30 (7)](https://user-images.githubusercontent.com/61896468/97873353-823a4700-1d3d-11eb-9819-b348de8b3b0e.png)
 ![2020-10-30 (8)](https://user-images.githubusercontent.com/61896468/97873363-849ca100-1d3d-11eb-8aaa-75e4e81c6edd.png)
 ![2020-10-30 (9)](https://user-images.githubusercontent.com/61896468/97873366-85cdce00-1d3d-11eb-83f3-8c7dd1f63e1d.png)

@@ -1,4 +1,10 @@
 # ARTH-TASK-7.1.1
+# Task Description 📄
+
+# 🌀 7.1: Elasticity Task
+# 🔅Integrating LVM with Hadoop and providing Elasticity to DataNode Storage
+
+
 ![2020-10-30 (1)](https://user-images.githubusercontent.com/61896468/97873325-79497580-1d3d-11eb-83a5-27b6d9f49107.png)
 ![2020-10-30 (2)](https://user-images.githubusercontent.com/61896468/97873331-7a7aa280-1d3d-11eb-818f-4b2c40880228.png)
 ![2020-10-30 (3)](https://user-images.githubusercontent.com/61896468/97873343-7e0e2980-1d3d-11eb-91dc-055d5802dc1d.png)

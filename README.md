@@ -23,7 +23,7 @@
 # -->> Now i created logical volume (LV) of 5 gb from this vg and it is available to use.
 ![2020-10-30 (4)](https://user-images.githubusercontent.com/61896468/97873346-7f3f5680-1d3d-11eb-9569-b9b7215b7e1d.png)
 
-![](https://miro.medium.com/max/875/1*cC3EvQj4IMF9JA51Ucta4w.png)
+
 
 ![](https://miro.medium.com/max/875/1*MTB6W0H3gmBRvuJv-J5jpg.png)
 

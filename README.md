@@ -51,4 +51,4 @@
 # Here on the fly, i reduced my lv size .
 ![Screenshot 2020-11-02 19 24 37](https://user-images.githubusercontent.com/61896468/97876082-515c1100-1d41-11eb-92c5-29b6ae614337.png)
 
-# ` Now using LV ,i have changed my slave shared storage by increasing and decreasing lv size on the fly without unmounting or deleting any data with the same resources.`
+# -->> ` Now using LV ,i have changed my slave shared storage by increasing and decreasing lv size on the fly without unmounting or deleting any data with the same resources.`

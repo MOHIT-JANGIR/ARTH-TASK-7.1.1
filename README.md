@@ -6,7 +6,7 @@
 
 
 # SOLUTION :
-# -->> Firstly i have created 10 gb ebs .
+# -->> Firstly i have created 10 gb ebs and i have created 2 volumes in the same way. 
 ![Screenshot 2020-11-02 19 26 03](https://user-images.githubusercontent.com/61896468/97876089-53be6b00-1d41-11eb-9b9d-e6b0e9b95d81.png)
 # -->> Then i attached that volume to my aws ec2 instance.
 ![Screenshot 2020-11-02 19 29 41](https://user-images.githubusercontent.com/61896468/97876452-e0692900-1d41-11eb-992b-33ae517a60b5.png)

@@ -12,7 +12,7 @@
 ![Screenshot 2020-11-02 19 29 41](https://user-images.githubusercontent.com/61896468/97876452-e0692900-1d41-11eb-992b-33ae517a60b5.png)
 # -->> To check all devices or hard disks , i have run fdisk -l and here my ebs volume is visible.
 ![2020-10-30 (1)](https://user-images.githubusercontent.com/61896468/97873325-79497580-1d3d-11eb-83a5-27b6d9f49107.png)
-# -->> Istall lvm package.
+# -->> Install lvm package.
 ![](https://miro.medium.com/max/875/1*cC3EvQj4IMF9JA51Ucta4w.png)
 
 
@@ -44,7 +44,7 @@
 ![2020-10-30 (10)](https://user-images.githubusercontent.com/61896468/97873369-86fefb00-1d3d-11eb-9aea-299949fe560a.png)
 # With this pv i extend my old vg by adding 2 gb.
 ![2020-10-30 (11)](https://user-images.githubusercontent.com/61896468/97873373-88302800-1d3d-11eb-9866-81ade3e264a2.png)
-# 
+# Here on the fly, i reduced my lv size .
 ![Screenshot 2020-11-02 19 24 37](https://user-images.githubusercontent.com/61896468/97876082-515c1100-1d41-11eb-92c5-29b6ae614337.png)
 
-
+# ` Now using LV ,i have changed my slave shared storage by increasing and decreasing lv size on the fly without unmounting or deleting any data with the same resources.`

@@ -3,7 +3,7 @@
 
 # 🌀 7.1.1: Elasticity Task
 # 🔅Integrating LVM with Hadoop and providing Elasticity to DataNode Storage
-
+![image](https://user-images.githubusercontent.com/61896468/97889330-42ca2580-1d52-11eb-8bbf-8bd72d6e587b.png)
 
 # SOLUTION :
 # -->> Firstly i have created 10 gb ebs and i have created 2 volumes in the same way. 
